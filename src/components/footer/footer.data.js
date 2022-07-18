@@ -6,49 +6,49 @@ export default {
   widgets: [
     {
       id: 1,
-      iconSrc: Chat,
-      altText: 'Community',
-      title: 'Join the Community',
+      iconSrc: Community,
+      altText: 'Chat',
+      title: 'Instagram',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        'Siga nossa Insta, periodicamente postamos diversas referências de arte.',
     },
     {
       id: 2,
-      iconSrc: Community,
-      altText: 'Chat',
-      title: 'Chat Communication',
+      iconSrc: Chat,
+      altText: 'Community',
+      title: 'Whatsapp',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        'Mende uma messagem ou ligue,   Contaos: 3377-1700 / 99549-6939 .',
     },
     {
       id: 3,
       iconSrc: Github,
       altText: 'Github',
-      title: 'Github Access',
+      title: 'Endereço',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        'ADE QD 3 Conjunto B Lote 13 Loja 1 Pró DF - Ceilândia, Brasília - DF, 72237-320.',
     },
   ],
   menuItem: [
     {
       path: '/',
-      label: 'Home',
+      label: 'Início',
     },
     {
       path: '/',
-      label: 'Adversite',
+      label: 'Serviços',
     },
     {
       path: '/',
-      label: 'Supports',
+      label: 'Projetos',
     },
     {
       path: '/',
-      label: 'Marketing',
+      label: 'Sobre',
     },
     {
       path: '/',
-      label: 'Contact',
+      label: 'Contatos',
     },
   ],
 };

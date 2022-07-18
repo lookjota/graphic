@@ -69,9 +69,9 @@ const data = [
     id: 4,
     imgSrc: Support,
     altText: 'Customer Support',
-    title: 'Catálogos',
+    title: 'Mais Serviços',
     text:
-      'Catálogos personalizados de todos os tamanhos.',
+      'Catálogos, crachás, Comandas, Cordão personalizado, envelope, etiquetas, impressão digital, livros, marcador de página, panfletos, revista.',
   },
   
 ];

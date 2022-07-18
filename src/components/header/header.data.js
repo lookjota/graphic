@@ -13,10 +13,11 @@ export default [
   },  
   {
     path: 'testimonial',
-    label: 'Clientes',
+    label: 'Sobre',
   },
   {
     path: 'contact',
     label: 'Contatos',
   },
 ];
+

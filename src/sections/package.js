@@ -289,8 +289,8 @@ export default function Package() {
     <section id="pricing" sx={{ variant: 'section.pricing' }}>
       <Container>
         <SectionHeader
-          slogan="Pricing Plan"
-          title="Choose your pricing policy"
+          slogan="Melhores Ofertas"
+          title="Promoções Especiais"
         />
         <Flex sx={styles.buttonGroup}>
           <Box sx={styles.buttonGroupInner}>

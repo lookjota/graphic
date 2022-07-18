@@ -7,11 +7,11 @@ import FeatureThumb from 'assets/core-feature.png';
 import shapePattern from 'assets/shape-pattern2.png';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Sobre Nós',
+  title: 'Gráfica Santa Fé',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.',
-  btnName: 'Get Started',
+    'Há mais de dez anos, a Gráfica Santa Fé entrega materiais e impressões de alta qualidade para diversos clientes de Brasília-DF e entorno. Atuando em diversas áreas, a Gráfica Santa Fé tem o que é necessário para atender às necessidades do seu negócio.',
+  btnName: 'Mandar mensagem',
   btnURL: '#',
 };
 

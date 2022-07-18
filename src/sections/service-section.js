@@ -22,24 +22,24 @@ import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
 
 const data = {
-  subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  subTitle: 'Projetos',
+  title: 'Trabalhos Feitos',
   features: [
     {
       id: 1,
       imgSrc: Smart,
       altText: 'Smart Features',
-      title: 'Smart Features',
+      title: 'Agilidade',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Alta performance na entrega de servicos, para atender os clientes que estão cada vez mais querendo agilidade nas prestações de serviços.',
     },
     {
       id: 2,
       imgSrc: Secure,
       altText: 'Secure Contents',
-      title: 'Secure Contents',
+      title: 'Qualidade',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Quem trabalha com marketing sabe o quanto é importante ter qualidade na divulgação da empresa. Qualidade você encontra aqui, nós montamos sua arte.',
     },
   ],
 };

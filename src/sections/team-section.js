@@ -180,10 +180,13 @@ const data = [
 export default function TeamSection() {
   return (
     <section>
-      <Container>
+      <Container
+        style={{ paddingTop: '1rem' }}
+      >
         <SectionHeader
-          slogan="our team"
-          title="The most qualified and talented individuals"
+          slogan="Não se trata, portanto, de ser perfeito em algo, mas sim de fazer as coisas da melhor forma possível.
+          Buscando Excelência"
+          title="Buscando Excelência"
         />
 
         <Grid sx={styles.grid}>
