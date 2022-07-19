@@ -52,19 +52,19 @@ export default function ServiceSection() {
     setVideoOpen(true);
   };
   return (
-    <section sx={{ variant: 'section.services' }}>
+    <section sx={{ variant: 'section.services' }} id="pricing">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
-          <Button
+          {/* <Button
             sx={styles.videoBtn}
             onClick={handleClick}
             aria-label="Play Button"
-          >
-            <span>
+          > */}
+            {/* <span>
               <IoIosPlay />
             </span>
-          </Button>
+          </Button> */}
 
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="Shape" />

@@ -12,12 +12,12 @@ const data = {
   description:
     'Há mais de dez anos, a Gráfica Santa Fé entrega materiais e impressões de alta qualidade para diversos clientes de Brasília-DF e entorno. Atuando em diversas áreas, a Gráfica Santa Fé tem o que é necessário para atender às necessidades do seu negócio.',
   btnName: 'Mandar mensagem',
-  btnURL: '#',
+  btnURL: 'https://api.whatsapp.com/send?phone=556199549-6939&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20',
 };
 
 export default function CoreFeature() {
   return (
-    <section sx={{ variant: 'section.coreFeature' }}>
+    <section sx={{ variant: 'section.coreFeature' }} id="testimonial">
       <Container sx={styles.containerBox}>
         <Box sx={styles.contentBox}>
           <TextFeature

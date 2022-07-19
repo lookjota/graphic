@@ -4,6 +4,7 @@ import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
 import LogoDark from 'assets/logo.svg';
+import LogoDark0 from 'assets/logo0.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -13,7 +14,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={LogoDark} />
+          <Logo src={LogoDark0} />
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
@@ -36,7 +37,9 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Get Started"
           >
-           Fazer Orçamentos 
+            <a sx={styles.clean} href="https://api.whatsapp.com/send?phone=556199549-6939&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_back"> 
+           Mandar Mensagem
+            </a>
           </Button>
 
           <MobileDrawer />
@@ -60,6 +63,12 @@ const positionAnim = keyframes`
 `;
 
 const styles = {
+
+  clean: {
+    textDecoration: 'none',
+    color: 'black',
+    fontWeight: 'body',
+  },
   header: {
     color: 'text',
     fontWeight: 'body',

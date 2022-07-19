@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Grid } from 'theme-ui';
+import { Container, Grid, Button } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import FeatureCard from 'components/feature-card.js';
 import Performance from 'assets/feature/performance.svg';
@@ -48,6 +48,7 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
+          
           slogan="Recursos de Qualidade"
           title="Serviços de Carimbo"
         />

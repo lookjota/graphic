@@ -5,8 +5,10 @@ import { Link } from 'components/link';
 export default function Logo({ src, ...rest }) {
   return (
     <Link
-      path="/"
+      path="#home"
       sx={{
+        width: '110px',
+        height: '50px',
         variant: 'links.logo',
         display: 'flex',
         cursor: 'pointer',

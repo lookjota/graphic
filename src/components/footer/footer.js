@@ -3,28 +3,34 @@ import { jsx, Box, Grid, Container, Image, Heading, Text } from 'theme-ui';
 import { Link } from 'components/link';
 import data from './footer.data';
 import FooterLogo from 'assets/logo.svg';
+import LogoDark0 from 'assets/logo0.png';
+
+
+
 export default function Footer() {
   return (
-    <footer sx={styles.footer}>
+    <footer sx={styles.footer} id="contact">
       <Container>
         <Grid sx={styles.widgets}>
-          {data.widgets.map((item) => (
+          {data.widgets.map(({id, iconSrc, path, altText, title, description }) => (
             <Box
-              key={`footer-widget--key${item.id}`}
+              key={`footer-widget--key${id}`}
               sx={styles.widgets.widgetItem}
-            >
-              <Image src={item.iconSrc} alt={item.altText} />
+            > 
+                <Link path={path} target="_back">
+                <Image src={iconSrc} alt={altText} />
+                </Link>
               <Box sx={styles.widgets.infoWrapper}>
-                <Heading as="h3">{item.title}</Heading>
-                <Text as="p">{item.description}</Text>
+                <Heading as="h3">{title}</Heading>
+                <Text as="p">{description}</Text>
               </Box>
             </Box>
           ))}
         </Grid>
         {/* End of footer widgets area */}
         <Box sx={styles.footer.footerBottomArea}>
-          <Link path="/">
-            <Image src={FooterLogo} alt="Logo" />
+          <Link path="#home">
+            <Image sx={styles.footer.footerLogos} src={LogoDark0} alt="Logo" />
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>
@@ -48,7 +54,17 @@ export default function Footer() {
 }
 
 const styles = {
+  
   footer: {
+
+
+
+    footerLogos: {
+      width: '390px',
+      height: '220px',
+    },
+
+
     footerBottomArea: {
       borderTop: '1px solid',
       borderTopColor: 'border_color',

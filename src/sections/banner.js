@@ -4,6 +4,7 @@ import { Container, Box, Heading, Text, Image, Button, } from 'theme-ui';
 import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
+import LogoDark0 from 'assets/logo0.png';
 
 export default function Banner() {
   return (
@@ -11,7 +12,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Santa Fé
+            <img sx={styles.banner.box} src={LogoDark0} />
           </Heading>          
           <Text as="p" variant="heroSecondary">
           A Gráfica Santa Fé entrega materiais e impressões de alta qualidade em Brasília-DF, {/*DF e entorno */}
@@ -25,6 +26,8 @@ export default function Banner() {
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
         </Box>
+        <br/><br/><br/>
+        {/* <Button sx={styles.banner.buttonDo} variant="primary">Explore</Button> */}
       </Container>
     </section>
   );
@@ -36,6 +39,20 @@ const styles = {
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: 'relative',
     zIndex: 2,
+    box: {
+      width: '410px',
+      height: '210px'
+    },
+    buttonDo: {
+      width: '200px',
+      // position: 'relative',
+      // zIndex: 2,
+      // display: 'flex',
+      // justifyContent: 'center',
+      // justifyContent: 'center',
+      // textAlign: 'center',
+      // display: 'inline-flex',
+    },
     '&::before': {
       position: 'absolute',
       content: '""',

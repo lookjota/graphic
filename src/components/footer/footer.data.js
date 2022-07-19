@@ -7,7 +7,7 @@ export default {
     {
       id: 1,
       iconSrc: Community,
-      altText: 'Chat',
+      path: 'https://api.instagram.com/grafica.santafe/',
       title: 'Instagram',
       description:
         'Siga nossa Insta, periodicamente postamos diversas referências de arte.',
@@ -15,14 +15,16 @@ export default {
     {
       id: 2,
       iconSrc: Chat,
+      path: 'https://api.whatsapp.com/send?phone=556199549-6939&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20',
       altText: 'Community',
       title: 'Whatsapp',
       description:
-        'Mende uma messagem ou ligue,   Contaos: 3377-1700 / 99549-6939 .',
+        'Mende uma messagem ou ligue, Contatos: 99549-6939 / 3377-1700',
     },
     {
       id: 3,
       iconSrc: Github,
+      path: '#home',
       altText: 'Github',
       title: 'Endereço',
       description:
@@ -31,23 +33,23 @@ export default {
   ],
   menuItem: [
     {
-      path: '/',
+      path: '#home',
       label: 'Início',
     },
     {
-      path: '/',
+      path: '#feature',
       label: 'Serviços',
     },
     {
-      path: '/',
+      path: '#pricing',
       label: 'Projetos',
     },
     {
-      path: '/',
+      path: '#testimonial',
       label: 'Sobre',
     },
     {
-      path: '/',
+      path: '#contact',
       label: 'Contatos',
     },
   ],
